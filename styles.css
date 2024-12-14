@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.Loging-container {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.5); /* 0.5 គឺថ្លាបន្តិច */
+    color: white; /* ពណ៌អក្សរ */
+    padding: 20px;
+    box-shadow: 0 0 15px reba(255, 255, 255, 0.5);
+}
+.Loging-form h2{
+    margin: 20px;
+}
+.Loging-form input{
+    display: block;
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: solid 5px dimgray;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+
+}
+button {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 50%;
+}
+button:hover {
+    background: #ff416c;
+    color: #fff;
+    transition: o.3s;
+}
+.forget-password {
+    display: block;
+    margin-top: 10px;
+    color: reba(255, 255, 255, 0.7);
+    text-decoration: none;
+    
+}
+.forget-passwor:hover {
+    color: #fff;
+    text-decoration: nderlinue;
+    
+}
